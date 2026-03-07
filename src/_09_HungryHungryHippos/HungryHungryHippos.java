@@ -61,7 +61,7 @@ public class HungryHungryHippos implements GameScene, GameControlScene {
      * Create your hippo objects here. The "left" input parameter indicates
      * which side the hippo is drawn.
      */
-    Hippo myHippoObject = new Hippo("left");
+    Hippo myHippoObject = new Hippo("left", Color.GRAY, "bob");
 
     public HungryHungryHippos() {
         gameFrame.setScene(this);
